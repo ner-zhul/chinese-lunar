@@ -1,24 +1,34 @@
 {
-	"author": "Conis <conis.yi@gmail.com> (http://iove.net/)",
-	"name": "chinese-lunar",
-	"description": "农历与公历相互转换的类库，支持农历的之间的加减运算，并提供生肖、干支等，支持1900-2100年",
-	"keywords": ["chinese lunar", "lunar", "农历", "旧历"],
-	"version": "0.1.4",
-	"repository":   {
-		"type": "git",
-		"url": "git://github.com/conis/chinese-lunar.git"
-	},
-	"main": "./lib/chinese-lunar.js",
-	"engines": {
-		"node": "*"
-	},
-	"dependencies": {
-	},
-	"devDependencies": {
-		"mocha" : "*",
-		"expect.js" : "*"
-	},
-	"scripts": {
-		"test" : "mocha"
-	}
+  "name": "chinese-lunar",
+  "version": "0.1.5",
+  "author": "Conis <conis.yi@gmail.com> (http://iove.net/)",
+  "description": "农历与公历相互转换的类库，支持农历的之间的加减运算，并提供生肖、干支等，支持1900-2100年",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conis/chinese-lunar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conis/chinese-lunar/issues"
+  },
+  "homepage": "https://github.com/conis/chinese-lunar#readme",
+  "keywords": [
+    "chinese lunar",
+    "lunar",
+    "农历",
+    "旧历"
+  ],
+  "main": "./lib/chinese-lunar.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }

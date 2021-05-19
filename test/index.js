@@ -47,4 +47,8 @@ describe('chinese-lunar', function(){
 	it('格式化TAd', function(){
 		expect(chineseLunar.format(LUNAR_DATA, 'T属A')).to.equal('壬戌年属狗');
 	});
+
+	it('.daysOfMonth(year, month, leap)', function(){
+		expect(chineseLunar.daysOfMonth(2021, 4, false)).to.equal(29);
+	});
 });
