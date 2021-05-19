@@ -1,6 +1,6 @@
 {
   "name": "@ner-zhul/chinese-lunar",
-  "version": "0.1.6",
+  "version": "1.0.0",
   "author": "Conis <conis.yi@gmail.com> (http://iove.net/)",
   "description": "农历与公历相互转换的类库，支持农历的之间的加减运算，并提供生肖、干支等，支持1900-2100年",
   "license": "MIT",
